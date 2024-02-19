@@ -63,23 +63,17 @@ const features = [
   {
     title: "Performance first",
     description:
-      "Built on [Next.js](https://nextjs.org/) primitives like `@next/font` and `next/image` for stellar performance.",
+      "Designed for efficiency and ease of use",
     demo: <WebVitals />,
   },
 
   {
-    title: "Built-in Auth + Database",
+    title: "Responsive Design",
     description:
-      "Todo comes with authentication and database via [clerk](https://clerk.com/) + [Xata.io](https://prisma.io/)",
+      "Todo comes with Responsive Design so will work on a variety of screen sizes ",
     demo: (
       <div className="flex items-center justify-center space-x-8 md:space-x-20">
-        <Image
-          alt="Auth.js logo"
-          src="/clerk-logo-dark-mode.svg"
-          width={500}
-          height={500}
-          className="hidden dark:block w-32 h-32 md:w-40 md:h-40 xl:w-60 xl:h-60  "
-        />
+         
         <Image
           alt="Auth.js logo"
           src="/clerk-logo-light-mode.svg"
@@ -87,13 +81,7 @@ const features = [
           height={500}
           className="dark:hidden w-32 h-32 md:w-40 md:h-40 xl:w-60 xl:h-60 "
         />
-        <Image
-          alt="Prisma logo"
-          src="/xataLogo.svg"
-          width={500}
-          height={500}
-          className="w-32 h-32 md:w-40 md:h-40 xl:w-60 xl:h-60  "
-        />
+        
       </div>
     ),
     large: true,
