@@ -20,7 +20,7 @@ export default async function Home() {
           className="animate-fade-up gradient  text-center font-display text-4xl font-bold tracking-[-0.02em] text-transparent  drop-shadow-sm [text-wrap:balance] md:text-7xl md:leading-[5rem]"
           style={{ animationDelay: "0.15s", animationFillMode: "forwards" }}
         >
-          Garden Tasks.
+          Garden Tasks App.
         </h1>
         <p
           className="mt-6 animate-fade-up text-center text-green-500  [text-wrap:balance] md:text-xl"
@@ -70,13 +70,13 @@ const features = [
   {
     title: "Responsive Design",
     description:
-      "Todo comes with Responsive Design so will work on a variety of screen sizes ",
+      "The Garden Tasks App comes with Responsive Design so will work on a variety of screen sizes ",
     demo: (
       <div className="flex items-center justify-center space-x-8 md:space-x-20">
          
         <Image
-          alt="Auth.js logo"
-          src="/clerk-logo-light-mode.svg"
+          alt="Garden Tasks App logo"
+          src="/responsive_icon.svg"
           width={500}
           height={500}
           className="dark:hidden w-32 h-32 md:w-40 md:h-40 xl:w-60 xl:h-60 "

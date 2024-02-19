@@ -22,7 +22,7 @@ export default function NavBar() {
               className="animate-fade-up bg-gradient-to-br from-blue-600 to-blue-300 bg-clip-text text-center font-display text-4xl font-bold tracking-[-0.02em] text-transparent  drop-shadow-sm [text-wrap:balance]"
               style={{ animationDelay: "0.15s", animationFillMode: "forwards" }}
             >
-              Todo
+              Garden Tasks App 
             </span>
           </Link>
           <div className="flex items-center gap-3 ">
