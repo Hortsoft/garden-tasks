@@ -3,7 +3,7 @@
 import { ThemeToggleButton } from "@/components/layout/theme-toggler";
 import useScroll from "@/lib/hooks/use-scroll";
 import Link from "next/link";
-
+import Image from "next/image";
 export default function NavBar() {
   const scrolled = useScroll(50);
 
@@ -17,7 +17,13 @@ export default function NavBar() {
         } z-30 transition-all`}
       >
         <div className="mx-5 flex h-16 max-w-screen-xl items-center justify-between w-full">
-          <Link href="/" className="flex items-center font-display text-2xl">
+        <Image
+          alt="Garden Tasks App logo"
+          src="/garden_tasks.svg"
+          width={300}
+          height={300}
+          className="dark:hidden w-32 h-32 md:w-40 md:h-40 xl:w-60 xl:h-60 "
+        /> <Link href="/" className="flex items-center font-display text-2xl">
             <span
               className="animate-fade-up bg-gradient-to-br from-green-600 to-green-300 bg-clip-text text-center font-display text-4xl font-bold tracking-[-0.02em] text-transparent  drop-shadow-sm [text-wrap:balance]"
               style={{ animationDelay: "0.15s", animationFillMode: "forwards" }}
