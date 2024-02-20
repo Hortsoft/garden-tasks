@@ -20,8 +20,8 @@ export default function NavBar() {
         <Image
           alt="Garden Tasks App logo"
           src="/garden_tasks.svg"
-          width={100}
-          height={100}
+          width={300}
+          height={300}
           className="dark:hidden w-32 h-32 md:w-40 md:h-40 xl:w-60 xl:h-60 "
         /> <Link href="/" className="flex items-center font-display text-2xl">
             <span

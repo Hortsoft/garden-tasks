@@ -75,7 +75,7 @@ const features = [
       <div className="flex items-center justify-center space-x-8 md:space-x-20">
          
         <Image
-          alt="Garden Tasks App logo"
+          alt=""
           src="/responsive_icon.svg"
           width={500}
           height={500}
