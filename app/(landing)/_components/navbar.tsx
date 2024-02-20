@@ -19,7 +19,7 @@ export default function NavBar() {
         <div className="mx-5 flex h-16 max-w-screen-xl items-center justify-between w-full">
           <Link href="/" className="flex items-center font-display text-2xl">
             <span
-              className="animate-fade-up bg-gradient-to-br from-blue-600 to-blue-300 bg-clip-text text-center font-display text-4xl font-bold tracking-[-0.02em] text-transparent  drop-shadow-sm [text-wrap:balance]"
+              className="animate-fade-up bg-gradient-to-br from-green-600 to-green-300 bg-clip-text text-center font-display text-4xl font-bold tracking-[-0.02em] text-transparent  drop-shadow-sm [text-wrap:balance]"
               style={{ animationDelay: "0.15s", animationFillMode: "forwards" }}
             >
               Garden Tasks App 

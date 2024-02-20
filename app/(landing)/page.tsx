@@ -17,13 +17,13 @@ export default async function Home() {
       <div className="z-10 w-full max-w-xl px-5 xl:px-0">
         
         <h1
-          className="animate-fade-up gradient  text-center font-display text-4xl font-bold tracking-[-0.02em] text-transparent  drop-shadow-sm [text-wrap:balance] md:text-7xl md:leading-[5rem]"
+          className="animate-fade-up gradient  from-green-600 to-green-300 text-center font-display text-4xl font-bold tracking-[-0.02em] text-transparent  drop-shadow-sm [text-wrap:balance] md:text-7xl md:leading-[5rem]"
           style={{ animationDelay: "0.15s", animationFillMode: "forwards" }}
         >
           Garden Tasks App.
         </h1>
         <p
-          className="mt-6 animate-fade-up text-center text-green-500  [text-wrap:balance] md:text-xl"
+          className="mt-6 animate-fade-up text-center text-green-900  [text-wrap:balance] md:text-xl"
           style={{ animationDelay: "0.25s", animationFillMode: "forwards" }}
         >
           Easily Manage your Garden Tasks.
