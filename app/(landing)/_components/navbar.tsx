@@ -22,7 +22,7 @@ export default function NavBar() {
           src="/garden_tasks.svg"
           width={150}
           height={150}
-          className="dark:hidden w-32 h-32 md:w-40 md:h-40 xl:w-60 xl:h-60 "
+          className="dark:hidden w-5 h-5 md:w-40 md:h-40 xl:w-60 xl:h-60 "
         /> <Link href="/" className="flex items-center font-display text-2xl">
             <span
               className="animate-fade-up bg-gradient-to-br from-green-600 to-green-300 bg-clip-text text-center font-display text-4xl font-bold tracking-[-0.02em] text-transparent  drop-shadow-sm [text-wrap:balance]"
