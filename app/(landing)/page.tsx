@@ -6,18 +6,18 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default async function Home() {
-  const response = await fetch("https://api.github.com/repos/NiKHiLkr23/todo", {
-    next: { revalidate: 86400 },
-  });
+  // const response = await fetch("https://api.github.com/repos/NiKHiLkr23/todo", {
+  //   next: { revalidate: 86400 },
+  // });
 
-  const { stargazers_count: stars } = await response.json();
+  // const { stargazers_count: stars } = await response.json();
 
   return (
     <>
       <div className="z-10 w-full max-w-xl px-5 xl:px-0">
         
         <h1
-          className="animate-fade-up gradient  from-green-600 to-green-300 text-center font-display text-4xl font-bold tracking-[-0.02em] text-transparent  drop-shadow-sm [text-wrap:balance] md:text-7xl md:leading-[5rem]"
+          className="animate-fade-up gradient  from-green-900 to-green-400 text-center font-display text-4xl font-bold tracking-[-0.02em] text-transparent  drop-shadow-sm [text-wrap:balance] md:text-4xl md:leading-[5rem]"
           style={{ animationDelay: "0.15s", animationFillMode: "forwards" }}
         >
           Garden Tasks App.
